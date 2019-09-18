@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+article:last-child{
+    border-bottom: 0px;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/01/14/32/seamless-2030343_960_720.jpg);
+    background-color: rgb(95, 95, 211)
+}
+
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color:rgb(116, 116, 230);
+    border-radius: 10px;
+}
+
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size: 2em;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    float: left;
+    width: 70%;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    background-color: yellow;
+    padding: 10px;
+}
+
+aside h3{
+    background-color: #ff5353;
+    color: #ffffff;
+    padding: 10px;
+}
+
+aside a{
+    color: #000000;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+}
